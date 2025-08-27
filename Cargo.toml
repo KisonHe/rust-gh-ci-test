@@ -1,0 +1,13 @@
+[package]
+name = "cargo_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+tokio = { version = "1.41.0", features = ["full"] }
+zeroconf = "0.15.1"
+zerocopy = { version = "0.8.13", features = ["derive"] }
+clap = { version = "4.5.20", features = ["derive"] }
+env_logger = "0.11.5"
+log = { version = "0.4.22", features = ["std"] }
